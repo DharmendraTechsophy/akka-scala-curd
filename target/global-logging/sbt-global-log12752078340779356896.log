@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 11.0.10)
+[debug]       Load.loadUnit: plugins took 313.7601ms
+[debug]       Load.loadUnit: defsScala took 0.7006ms
+[debug] [Loading] Scanning directory C:\Users\Dharmen\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Dharmen\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 67.3332 ms
+[debug]           Load.resolveProject(global-plugins) took 1512.1143ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Dharmen\.sbt\1.0\plugins, plugins: List(<none>))) took 1684.3027ms
+[debug] [Loading] Done in C:\Users\Dharmen\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 1763.3146ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.5377ms
+[debug]     Load.loadUnit(file:/C:/Users/Dharmen/.sbt/1.0/plugins/, ...) took 2099.0949ms
+[debug]   Load.apply: load took 3436.9298ms
+[debug]   Load.apply: resolveProjects took 15.7947ms
+[debug]   Load.apply: finalTransforms took 638.113ms
+[debug]   Load.apply: config.delegates took 40.0455ms
+[debug]   Load.apply: Def.make(settings)... took 7990.6982ms
+[debug]   Load.apply: structureIndex took 1198.7782ms
+[debug]   Load.apply: mkStreams took 3.8531ms
+[info] loading global plugins from C:\Users\Dharmen\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 27822.0695ms
+[debug]           Load.loadUnit: plugins took 5319.395ms
+[debug]           Load.loadUnit: defsScala took 0.0079ms
+[debug] [Loading] Scanning directory C:\Virtual Disk Drive( A)\Akka\akka-scala-curd\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Virtual Disk Drive( A)\Akka\akka-scala-curd\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 65.6036 ms
+[debug]               Load.resolveProject(akka-scala-curd-build) took 81.2626ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id akka-scala-curd-build, base: C:\Virtual Disk Drive( A)\Akka\akka-scala-curd\project, plugins: List(<none>))) took 148.2878ms
+[debug] [Loading] Done in C:\Virtual Disk Drive( A)\Akka\akka-scala-curd\project, returning: (akka-scala-curd-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 573.6796ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0237ms
+[debug]         Load.loadUnit(file:/C:/Virtual%20Disk%20Drive(%20A)/Akka/akka-scala-curd/project/, ...) took 7384.8518ms
+[debug]       Load.apply: load took 7409.5414ms
+[debug]       Load.apply: resolveProjects took 0.2538ms
+[debug]       Load.apply: finalTransforms took 112.9145ms
+[debug]       Load.apply: config.delegates took 1.0194ms
+[debug]       Load.apply: Def.make(settings)... took 2486.5443ms
+[debug]       Load.apply: structureIndex took 149.3006ms
+[debug]       Load.apply: mkStreams took 0.0037ms
+[info] loading project definition from C:\Virtual Disk Drive( A)\Akka\akka-scala-curd\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 11422.9197ms
+[debug]     Load.loadUnit: defsScala took 0.007ms
+[debug] [Loading] Scanning directory C:\Virtual Disk Drive( A)\Akka\akka-scala-curd
+[debug]       Load.loadUnit: mkEval took 13.6018ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Virtual Disk Drive( A)\Akka\akka-scala-curd, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 6.0165 ms
+[info] loading settings for project akka-scala-curd from build.sbt ...
+[debug]         Load.resolveProject(akka-scala-curd) took 19.4244ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id akka-scala-curd, base: C:\Virtual Disk Drive( A)\Akka\akka-scala-curd, plugins: List(<none>))) took 39.0026ms
+[debug] [Loading] Done in C:\Virtual Disk Drive( A)\Akka\akka-scala-curd, returning: (akka-scala-curd)
+[debug]     Load.loadUnit: loadedProjectsRaw took 19260.6215ms
+[debug]     Load.loadUnit: cleanEvalClasses took 23.4103ms
+[debug]   Load.loadUnit(file:/C:/Virtual%20Disk%20Drive(%20A)/Akka/akka-scala-curd/, ...) took 30801.0561ms
+[debug] Load.apply: load took 30820.6771ms
+[debug] Load.apply: resolveProjects took 0.2729ms
+[debug] Load.apply: finalTransforms took 27.624ms
+[debug] Load.apply: config.delegates took 1.1495ms
+[debug] Load.apply: Def.make(settings)... took 654.8621ms
+[debug] Load.apply: structureIndex took 91.417ms
+[debug] Load.apply: mkStreams took 0.0036ms
+[info] set current project to akka-scala (in build file:/C:/Virtual%20Disk%20Drive(%20A)/Akka/akka-scala-curd/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-f76b0eeb212b2d106644
+[info] started sbt server

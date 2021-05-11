@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compilw, Some(b3a12583-deb2-4a69-9f89-08c53947a3a1), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: compilw (similar: completions)[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: compilw[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: compilw (similar: compile, compilers, compileJava)[0m
+[0m[[0m[31merror[0m] [0m[0mcompilw[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

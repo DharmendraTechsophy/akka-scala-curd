@@ -1,0 +1,23 @@
+[debug] > Exec(;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/Dharmen/AppData/Local/Temp/sbt-structure1.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/Dharmen/AppData/Roaming/JetBrains/IdeaIC2021.1/plugins/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure, Some(f8e39581-fc65-42fe-9d4a-8926eb134766), Some(CommandSource(console0)))
+[debug] > Exec(set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/Dharmen/AppData/Local/Temp/sbt-structure1.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers"), None, Some(CommandSource(console0)))
+[info] Defining Global / sbtStructureOptions, Global / sbtStructureOutputFile and 1 others.
+[info] The new values will be used by cleanKeepGlobs
+[info] 	Run `last` for details.
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 	Global / sbtStructureOutputFile
+[debug] 	history
+[debug] 	shellPrompt
+[debug] 
+[debug] The new values will be used by 
+[debug] 	cleanKeepGlobs
+[info] Reapplying settings...
+[info] set current project to akka-scala (in build file:/C:/Virtual%20Disk%20Drive(%20A)/Akka/akka-scala-curd/)
+[debug] > Exec(apply -cp "C:/Users/Dharmen/AppData/Roaming/JetBrains/IdeaIC2021.1/plugins/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks, None, Some(CommandSource(console0)))
+[info] Applying State transformations org.jetbrains.sbt.CreateTasks from C:/Users/Dharmen/AppData/Roaming/JetBrains/IdeaIC2021.1/plugins/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar
+[info] Reapplying settings...
+[info] set current project to akka-scala (in build file:/C:/Virtual%20Disk%20Drive(%20A)/Akka/akka-scala-curd/)
+[debug] > Exec(*/*:dumpStructure, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Global / dumpStructure
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

@@ -1,0 +1,2 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Virtual Disk Drive( A)\Akka\akka-scala-curd\project\target\scala-2.12\sbt-1.0\classes.bak
+[debug] Removing the temporary directory used for backing up class files: C:\Virtual Disk Drive( A)\Akka\akka-scala-curd\project\target\scala-2.12\sbt-1.0\classes.bak

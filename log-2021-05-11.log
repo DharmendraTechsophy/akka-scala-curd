@@ -1,0 +1,97 @@
+[34m[INFO][0;39m - [2021-05-11 15:32:37,680] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 15:33:16,835] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 15:33:17,567] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 15:33:17,744] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 15:33:17,796] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[31m[WARN][0;39m - [2021-05-11 15:33:25,844] - [reactivemongo.api.MongoConnection]  [Supervisor-1/Connection-1] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1185600523?
+[1;31m[ERROR][0;39m - [2021-05-11 15:33:25,983] - [akka.actor.ActorSystemImpl]  Error during processing of request: 'MongoError['No primary node is available! (Supervisor-1/Connection-1)']'. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/Connection-1)']
+	at repository.StudentRepo$.$anonfun$db1$1(StudentRepo.scala:23)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+[34m[INFO][0;39m - [2021-05-11 15:41:42,523] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 15:57:28,168] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 15:57:45,119] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 15:57:45,627] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 15:57:45,839] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 15:57:45,905] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 15:59:01,558] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:00:47,092] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:12:13,713] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:12:22,642] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:12:23,413] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 16:12:23,662] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 16:12:23,707] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 16:27:41,404] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:27:50,921] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:27:51,445] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 16:27:51,760] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 16:27:51,805] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 16:36:46,592] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:38:53,417] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:38:54,290] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 16:38:54,726] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 16:38:54,773] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 16:43:20,960] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:43:36,050] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:43:36,419] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 16:43:36,592] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 16:43:36,643] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 16:58:56,432] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:59:12,835] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 16:59:13,529] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 16:59:13,883] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 16:59:13,935] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 17:06:08,260] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 17:06:47,625] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 17:06:48,112] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 17:06:48,249] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 17:06:48,278] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 17:16:07,975] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 17:16:22,032] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 17:16:22,619] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 17:16:22,864] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 17:16:22,914] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 17:23:27,714] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 17:23:46,904] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 17:23:47,452] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 17:23:47,771] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 17:23:47,838] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 17:31:02,260] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 17:31:12,777] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 17:31:13,351] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 17:31:13,585] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 17:31:13,654] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 17:54:57,208] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 17:55:17,547] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 17:55:18,022] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 17:55:18,301] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 17:55:18,371] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 22:14:54,754] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 22:34:02,861] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 22:34:11,676] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 22:34:11,930] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 22:34:12,050] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 22:34:12,086] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 22:35:59,516] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 22:35:59,721] - [reactivemongo.api.Driver]  [Supervisor-2] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 22:35:59,734] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-2/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 22:35:59,736] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 22:49:50,490] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 22:50:12,570] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 22:50:12,832] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 22:50:13,123] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 22:50:13,162] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 22:50:15,883] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 22:50:16,026] - [reactivemongo.api.Driver]  [Supervisor-2] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 22:50:16,033] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-2/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 22:50:16,035] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 22:59:07,383] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 22:59:19,299] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 22:59:19,543] - [reactivemongo.api.Driver]  [Supervisor-1] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 22:59:19,663] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-1/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 22:59:19,697] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
+[34m[INFO][0;39m - [2021-05-11 22:59:23,776] - [akka.event.slf4j.Slf4jLogger]  Slf4jLogger started
+[34m[INFO][0;39m - [2021-05-11 22:59:23,832] - [reactivemongo.api.Driver]  [Supervisor-2] Creating connection: Connection-1
+[34m[INFO][0;39m - [2021-05-11 22:59:23,834] - [reactivemongo.core.actors.MongoDBSystem]  [Supervisor-2/Connection-1] Starting the MongoDBSystem
+[34m[INFO][0;39m - [2021-05-11 22:59:23,835] - [reactivemongo.core.netty.Pack]  Instantiated reactivemongo.core.netty.Pack
